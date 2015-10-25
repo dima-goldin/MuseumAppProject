@@ -5,5 +5,10 @@
 .DS_Store
 /build
 /captures
-app/libs/*
+app/libs/idrecoplugin.jar
+app/libs/idrecoplugingui.jar
+app/libs/idsdk.jar
+app/libs/armeabi-v7a/libcore.so
+app/libs/armeabi-v7a/libffmpeg.so
+app/libs/armeabi-v7a/libiDRecoPluginGui.so
 app/src/main/assets/museumApp.properties

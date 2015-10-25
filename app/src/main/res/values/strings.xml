@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">DemoMuseumApp</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">""</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_recognize">RecognizeActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="entity_name">Entity Name</string>
+    <string name="fetch_creative">Fetch Creative</string>
+    <string name="entity_id">Entity Id</string>
+    <string name="engine_not_initialized">Engine not initialized. Please restart the app with proper network connection and credentials.</string>
+    <string name="no_match">No Match found.</string>
+    <string name="recognizing_code">Recognizing Code…</string>
+    <string name="creative_not_available">Creative not available.</string>
+    <string name="result">Result</string>
+    <string name="ar_mode">AR Mode</string>
+    <string name="example">Example</string>
+    <string name="demo_version">"Demo : "</string>
+    <string name="idsdk_version">"iD SDK: "</string>
+    <string name="camera_not_opened">Camera could not be opened</string>
+    <string name="visit_website_example">Visit the following website to view sample images and barcodes:</string>
+    <string name="visit_website_example_link"><a href="https://developer.theidplatform.com/sample-app">https://developer.theidplatform.com/sample-app</a></string>
+    <string name="secret">Secret</string>
+    <string name="id">Id</string>
+    <string name="title_activity_viewer">ViewerActivity</string>
+</resources>

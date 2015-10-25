@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.nantmobile.dgoldin.demomuseumapp.RecognizeActivity">
+
+<idsdk.api.ar.ARView
+    android:id="@+id/IdARView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+<Button
+    android:id="@+id/TorchBT"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/flash"/>
+
+<Button
+    android:id="@+id/FacingBT"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/flip_camera"/>
+
+
+<Button
+    android:id="@+id/RecognizeBT"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerInParent="true"
+    android:layout_marginBottom="25dp"
+    android:background="@drawable/camera_button"/>
+
+<ProgressBar
+    android:id="@+id/progressBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"/>
+
+<Button
+    android:id="@+id/StopRecognitionBT"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_marginBottom="23dp"
+    android:background="@drawable/close"
+    android:visibility="invisible"
+    android:layout_alignBottom="@+id/RecognizeBT"
+    android:layout_alignLeft="@+id/progressBar"
+    android:layout_alignStart="@+id/progressBar"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/TitleTV"
+    android:layout_centerHorizontal="true"
+    android:layout_alignTop="@+id/FacingBT"
+    android:textColor="#FFFFFF"
+    android:textSize="16sp"
+    android:shadowDx="-2"
+    android:shadowDy="2"
+    android:shadowRadius="2"
+    android:shadowColor="#000000"
+    android:gravity="center"
+    android:layout_marginTop="5dp"/>
+
+<Button
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:id="@+id/ExampleBT"
+    android:background="@drawable/help"
+    android:layout_marginTop="22dp"
+    android:layout_below="@+id/TorchBT"
+    android:layout_alignRight="@+id/TorchBT"
+    android:layout_alignEnd="@+id/TorchBT"
+    android:layout_marginRight="3dp"/>
+
+<Button
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:id="@+id/VisualFeedbackBT"
+    android:background="@drawable/feedback_button"
+    android:visibility="invisible"
+    android:layout_alignTop="@+id/TitleTV"
+    android:layout_alignRight="@+id/TorchBT"
+    android:layout_alignEnd="@+id/TorchBT"
+    android:layout_marginRight="3dp"/>
+
+</RelativeLayout>
